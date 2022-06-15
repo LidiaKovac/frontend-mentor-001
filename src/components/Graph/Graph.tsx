@@ -16,7 +16,10 @@ export const Graph: FC = () => {
                   mov.day === "wed" ? "graph__amount accent" : "graph__amount"
                 }
                 style={{ height: mov.amount * 3 + "px" }}
-              ></div>
+              >
+                
+                </div> 
+                <div className="graph__amount--text">${mov.amount}</div>
             </div>
           )
         })}

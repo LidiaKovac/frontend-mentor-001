@@ -43,8 +43,29 @@
             border-radius: 7px;
             width: 100%;
         }
+        .graph__amount:hover {
+            background-color: $pale-orange;
+        }
+        .graph__amount--text {
+            opacity: 0;
+            text-align: center;
+            font-size: 15px;
+            color: white;
+            background-color: $dark-text;
+            width: 120%;
+            border-radius: 5px;
+            margin: 5px;
+            padding: 2.5px;
+            transition: .2s;
+        }
+        .graph__amount:hover ~ .graph__amount--text {
+            opacity: 1;
+        }
         .accent {
             background-color: $gre-cyan;
+        }
+        .accent:hover {
+            background-color: $pale-cyan;
         }
     }
     .graph__summary {
