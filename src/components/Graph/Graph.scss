@@ -1,0 +1,66 @@
+@import "../../styling/_Guidelines.scss";
+
+.graph__wrap {
+    width: 25vw;
+    min-width: 550px;
+    height: 50vh;
+
+    margin: 20px;
+    padding: 30px;
+    border-radius: $br-30;
+
+    box-sizing: border-box;
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: $DM-Sans;
+    color: $dark-text;
+    
+
+    h2 {
+        color: $dark-text;
+    }
+    .graph__area {
+        display: flex;
+        justify-content: space-evenly;
+        
+
+        .graph__block {
+            width: 50px;
+
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .graph__day {
+            color: $medium-text
+        }
+        .graph__amount {
+            background-color: $soft-red;
+            border-radius: 7px;
+            width: 100%;
+        }
+        .accent {
+            background-color: $gre-cyan;
+        }
+    }
+    .graph__summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .total__number .total {
+            font-size: 40px;
+            font-weight: $bold;
+        }
+        .percentage {
+            text-align:right;
+            .percentage__data {
+                font-weight: bold;
+            }
+        }
+    }
+    
+}

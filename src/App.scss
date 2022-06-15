@@ -1,0 +1,25 @@
+@import "./styling/_Guidelines.scss";
+
+.app__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  background-color: $bg-light;
+}
+
+.text--big {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.text--small {
+  font-size: 18px;
+}
+
+.divider {
+  border-top: $bg-light 1px solid;
+}

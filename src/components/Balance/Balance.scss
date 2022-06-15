@@ -1,0 +1,41 @@
+@import "../../styling/_Guidelines.scss";
+
+.balance__wrap {
+    width: 25vw;
+    min-width: 550px;
+    height: 150px;
+
+    background-color: $soft-red;
+
+    border-radius: $br-30;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 30px;
+    box-sizing: border-box;
+
+    font-family: $DM-Sans;
+    color: white;
+    .balance__content {
+        flex: 3;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .balance__icon {
+        flex: 1;
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+
+.bold {
+    font-weight: $bold;
+}
