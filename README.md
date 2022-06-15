@@ -11,7 +11,6 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/LidiaKovac/frontend-mentor-001)
-- Live Site URL: [Deployed Version](https://lidiakovac.github.io/frontend-mentor-001/)
+- Live Site URL: [Deployed Version](https://main--frontend-mentor-001.netlify.app/)
 
 ## My process
 
